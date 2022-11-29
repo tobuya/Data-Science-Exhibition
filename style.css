@@ -1,4 +1,169 @@
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
   margin: 0;
+  padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 767px;
+  height: auto;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 7%;
+}
+
+.introduction-greet {
+    color: #ec5242;
+    font-size: larger;
+}
+
+.introduction-h1 {
+    font-weight: bolder;
+    color: #ec5242;
+    font-size: xx-large;
+}
+
+.introduction-para {
+    border: 1px solid green;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.introduction-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#program-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.05fr 0.75fr 0.1fr;
+    gap: 10px;
+    padding: 7% 7% 0 7%;
+    background-color: black;
+    color: #fff;
+}
+
+#program-section > h2 {
+    text-align: center;
+}
+
+#program-section > hr {
+    place-self: center;
+    width: 15%;
+}
+
+#programs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.program {
+    border: 1px solid wheat;
+    display: grid;
+    grid-template-columns: 0.3fr 0.1fr 0.4fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    padding: 5%;
+}
+
+.program-btn {
+    place-self: center;
+    width: 60%;
+    margin-top: 20px;
+    padding: 4%;
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+}
+
+#speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 3%;
+    background-color: aqua;
+}
+
+#speakers > hr {
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+#featured-speakers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.speaker {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-rows: 1fr;
+    padding: 2%;
+}
+
+.speaker-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.15fr 0.05fr 0.6fr;
+    gap: 5px;
+}
+
+.speaker-info > hr {
+    width: 10%;
+}
+
+#partner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+    background: #272a31;
+  }
+
+#partner > hr {
+    width: 8%;
+}
+
+  .partner-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #partner img {
+    width: 27%;
+    margin: 0 3%;
+    height: 27%;
+    filter: invert(70%) sepia(28%) saturate(4%) hue-rotate(357deg) brightness(106%) contrast(97%);
+  }
+
+  #logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 8%;
+  }
