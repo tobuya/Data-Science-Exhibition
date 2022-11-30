@@ -10,6 +10,17 @@ body {
   flex-direction: column;
   max-width: 767px;
   height: auto;
+  background-image: url('images/backgr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
+
+.menu {
+    color: #000;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 #introduction {
@@ -31,9 +42,9 @@ body {
 }
 
 .introduction-para {
-    border: 1px solid green;
+    border: 2px solid #d3ded3;
     padding: 3%;
-    margin-top: 5%;
+    margin: 5% 5% 5% 0;
 }
 
 .introduction-div {
@@ -47,8 +58,9 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.05fr 0.75fr 0.1fr;
     gap: 10px;
-    padding: 7% 7% 0 7%;
-    background-color: black;
+    padding: 5% 5% 0 5%;
+    background-image: url('images/dark.jpg');
+    background-size: contain;
     color: #fff;
 }
 
@@ -67,16 +79,27 @@ body {
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
     margin-top: 20px;
-    border: 1px solid red;
 }
 
 .program {
-    border: 1px solid wheat;
     display: grid;
-    grid-template-columns: 0.3fr 0.1fr 0.4fr;
+    grid-template-columns: 0.3fr 0.2fr 0.5fr;
     grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: start;
+    padding: 3% 5%;
     gap: 5px;
-    padding: 5%;
+    background-color: #272a31;
+}
+
+.program > img {
+    width: 40%
+}
+
+.program > h4 {
+    padding-left: 0;
+    color: #ec5242;
+    font-weight: bolder;
 }
 
 .program-btn {
@@ -166,4 +189,5 @@ body {
     align-items: center;
     gap: 40px;
     padding: 8%;
+    background-color: #d3ded3;
   }
