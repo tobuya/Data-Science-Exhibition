@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 767px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 8% 5%;
+}
+
+#about-intro > h3 {
+    color: #ec5242;
+    font-size: larger;
+}
+
+#about-intro > h1 {
+    font-weight: bolder;
+    color: #ec5242;
+    font-size: xx-large;
+}
+
+#about-intro > p {
+    border: 1px solid green;
+    padding: 3%;
+    margin-top: 7%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2% 8%;
+    border: 1px solid red;
+}
+
+#contact > a {
+    color: #000;
+    font-weight: bolder;
+}
+
+#about-logo-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.6fr;
+    gap: 10px;
+    padding: 10%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.logo-exhibition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4%;
+    border: 1px solid green;
+}
+
+.logo-exhibition > hr {
+    width: 15%;
+    align-self: center;
+    border: 1px solid#ec5242;
+}
+
+.logo {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+
+#past-events {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5%;
+    border: 1px solid green;
+}
+
+.past-events-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 3%;
+    border: 1px solid red;
+}
+
+.past-events-top > hr {
+    width: 20%;
+    align-self: center;
+}
+
+.past-events-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.single-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+#partner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    padding: 5%;
+    background: #272a31;
+  }
+
+#partner > hr {
+    width: 8%;
+}
+
+  .partner-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #partner img {
+    width: 27%;
+    margin: 0 3%;
+    height: 27%;
+    filter: invert(70%) sepia(28%) saturate(4%) hue-rotate(357deg) brightness(106%) contrast(97%);
+  }
+
+  #logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 8%;
+  }
+  
