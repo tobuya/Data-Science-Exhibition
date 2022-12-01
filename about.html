@@ -8,15 +8,51 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <div>
+        <div id="mobile-menu">
             <a href="#">
                 <i class="material-icons menu">menu</i>
             </a>
         </div>
-        <nav></nav>
+        <div id="top-bar">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Logout</a>
+        </div>
+        <nav id="navigation">
+            <a id="page-logo" href="./index.html">
+                <img src="images/iCON.png" alt="Logo">
+            </a>
+            <ul id="desktop-nav">
+                <li>
+                    <a href="./index.html" class="nav-list">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Program</a>
+                </li>
+                <li>
+                    <a href="./about.html" id="active">About</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Sponsor</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">News</a>
+                </li>
+                <button type="button" id="nav-btn">Join Now</button>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="about-intro">
@@ -30,7 +66,7 @@
             </P>
             <div id="contact">
                 <p>Please contact us per Email for any future questions about AI & Big Data Exhibition 2023!</p>
-                <a href="#">ai&bigdata2023@rdnairobi.org</a>
+                <a href="#">ai-bigdata2023@rdnairobi.org</a>
             </div>
         </section>
         <section id="about-logo-section">
@@ -54,7 +90,7 @@
                     <h3>2017</h3>
                     <p>AI & Big Data Exhibition in Buenos Aires</p>
                 </section>
-                <section id="past-events-warsaw" class="single-event">
+                <section id="past-event-warsaw" class="single-event">
                     <h3>2020</h3>
                     <p>AI & Big Data Exhibition in Warsaw</p>
                 </section>
