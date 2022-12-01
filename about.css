@@ -2,14 +2,25 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     max-width: 767px;
     height: auto;
     display: flex;
     flex-direction: column;
+    background-image: url('images/brkgrd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.menu {
+    color: #000;
+    padding-left: 7%;
+    padding-top: 5%;
 }
 
 #about-intro {
@@ -17,7 +28,7 @@ body {
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    padding: 8% 5%;
+    padding: 8% 7%;
 }
 
 #about-intro > h3 {
@@ -32,9 +43,10 @@ body {
 }
 
 #about-intro > p {
-    border: 1px solid green;
+    border: 2px solid #fff;
     padding: 3%;
     margin-top: 7%;
+    background-color: #d3ded3;
 }
 
 #contact {
@@ -42,7 +54,6 @@ body {
     flex-direction: column;
     gap: 5px;
     padding: 2% 8%;
-    border: 1px solid red;
 }
 
 #contact > a {
@@ -57,19 +68,18 @@ body {
     gap: 10px;
     padding: 10%;
     text-align: center;
-    border: 1px solid red;
+    background-color: #fff;
 }
 
 .logo-exhibition {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 4%;
-    border: 1px solid green;
+    padding: 0 20% 4% 20%;
 }
 
 .logo-exhibition > hr {
-    width: 15%;
+    width: 8%;
     align-self: center;
     border: 1px solid#ec5242;
 }
@@ -77,15 +87,24 @@ body {
 .logo {
     width: 100%;
     height: 200px;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+}
+
+.logo > img {
+    width: 80%;
+    height: 80%;
 }
 
 #past-events {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 5%;
-    border: 1px solid green;
+    padding: 7%;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
 }
 
 .past-events-top {
@@ -93,13 +112,13 @@ body {
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    padding: 3%;
-    border: 1px solid red;
+    padding: 0 10% 4% 10%;
 }
 
 .past-events-top > hr {
-    width: 20%;
+    width: 8%;
     align-self: center;
+    border: 1px solid #ec5242;
 }
 
 .past-events-details {
@@ -117,7 +136,30 @@ body {
     gap: 10px;
     width: 100%;
     height: 200px;
-    background-color: aquamarine;
+}
+
+.single-event > h3,
+.single-event > p {
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#past-event-buenos {
+    background-image: url('images/group.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    opacity: 0.65; 
+}
+
+
+#past-event-warsaw {
+    background-image: url('images/2020.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    opacity: 0.75;
 }
 
 #partner {
@@ -126,12 +168,13 @@ body {
     color: white;
     align-items: center;
     gap: 10px;
-    padding: 5%;
+    padding: 7%;
     background: #272a31;
   }
 
 #partner > hr {
     width: 8%;
+    border: 1px solid #ec5242;
 }
 
   .partner-logo {
@@ -156,5 +199,6 @@ body {
     align-items: center;
     gap: 40px;
     padding: 8%;
+    background-color: #fff;
   }
   
