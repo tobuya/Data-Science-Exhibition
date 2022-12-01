@@ -23,6 +23,11 @@ body {
     padding-top: 5%;
 }
 
+#navigation,
+#top-bar {
+    display: none;
+}
+
 #about-intro {
     display: flex;
     flex-direction: column;
@@ -66,7 +71,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 0.6fr;
     gap: 10px;
-    padding: 10%;
+    padding: 5% 15%;
     text-align: center;
     background-color: #fff;
 }
@@ -159,7 +164,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 50%;
-    opacity: 0.75;
+    opacity: 0.65;
 }
 
 #partner {
@@ -173,7 +178,7 @@ body {
   }
 
 #partner > hr {
-    width: 8%;
+    width: 4%;
     border: 1px solid #ec5242;
 }
 
@@ -198,7 +203,109 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 8%;
+    padding: 2% 8%;
     background-color: #fff;
   }
-  
+
+  @media only screen and (min-width: 768px) {
+    body {
+        max-width: 100%;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #top-bar {
+        background: #272a31;
+        height: 4vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 7%;
+    }
+
+    #top-bar a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.8rem;
+        margin: auto 1%;
+    }
+
+    #top-bar i {
+        font-size: 1.2rem;
+        margin-left: 1%;
+    }
+
+    #navigation {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        padding: 0 7%;
+    }
+
+    #desktop-nav {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-left: auto;
+    }
+
+    #desktop-nav > li {
+        list-style-type: none;
+    }
+
+    #desktop-nav a {
+        text-decoration: none;
+    }
+
+    #page-logo {
+        width: 20%;
+        height: 8%;
+    }
+
+    .nav-list {
+        color: #272a31;
+    }
+
+    #active {
+        color: #ec5242;
+    }
+
+    #nav-btn {
+        padding: 8px;
+        background-color: #fff;
+        color: #ec5242;
+        font-weight: bolder;
+        border: 2px solid #ec5242;
+    }
+
+    #nav-btn:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #ec5242;
+        padding: 10px;
+        border: none;
+    }
+
+    .past-events-details {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    #partner {
+        padding: 4%;
+    }
+
+    .partner-logo {
+        flex-wrap: nowrap;
+    }
+
+      #partner img {
+        width: 18%;
+        margin: 0 1.5%;
+        height: 18%;
+    }  
+  }
