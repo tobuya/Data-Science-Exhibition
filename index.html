@@ -8,15 +8,51 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <div>
+        <div id="mobile-menu">
             <a href="#">
                 <i class="material-icons md-36 menu">menu</i>
             </a>
         </div>
-        <nav></nav>
+        <div id="top-bar">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Logout</a>
+        </div>
+        <nav id="navigation">
+            <a id="page-logo" href="./index.html">
+                <img src="images/iCON.png" alt="Logo">
+            </a>
+            <ul id="desktop-nav">
+                <li>
+                    <a id="active" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Program</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-list">About</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Sponsor</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">News</a>
+                </li>
+                <button type="button" id="nav-btn">Join Now</button>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="introduction">
@@ -67,6 +103,9 @@
                 </div>
             </div>
             <button type="button" class="program-btn">Join AI & Big Data Expo 2023</button>
+            <p class="whole-program">
+                <a href="#">SEE THE WHOLE PROGRAM</a>
+            </p>
         </section>
         <section id="speakers">
             <h2>Featured Speakers</h2>
@@ -141,7 +180,6 @@
                 <img class="facebook" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-15.png"
                     alt="Facebook">
                 <img src="images/airbnb.png" alt="AirBnB">
-
             </div>
         </section>
         <section id="logo-section">
