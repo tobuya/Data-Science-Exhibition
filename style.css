@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   max-width: 767px;
   height: auto;
-  background-image: url('images/backgr.jpg');
+  background-image: url('images/brkgrd.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 
 .menu {
     color: #000;
-    padding-left: 5%;
+    padding-left: 7%;
     padding-top: 5%;
 }
 
@@ -42,7 +42,8 @@ body {
 }
 
 .introduction-para {
-    border: 2px solid #d3ded3;
+    border: 2px solid #fff;
+    background-color: #d3ded3;
     padding: 3%;
     margin: 5% 5% 5% 0;
 }
@@ -58,7 +59,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.05fr 0.75fr 0.1fr;
     gap: 10px;
-    padding: 5% 5% 0 5%;
+    padding: 5% 7% 0 7%;
     background-image: url('images/dark.jpg');
     background-size: contain;
     color: #fff;
@@ -70,7 +71,8 @@ body {
 
 #program-section > hr {
     place-self: center;
-    width: 15%;
+    width: 8%;
+    border: 1px solid #ec5242;
 }
 
 #programs {
@@ -119,11 +121,11 @@ body {
     align-items: center;
     gap: 20px;
     padding: 3%;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 #speakers > hr {
-    width: 15%;
+    width: 8%;
     margin-bottom: 15px;
 }
 
@@ -150,7 +152,7 @@ body {
 }
 
 .speaker-info > hr {
-    width: 10%;
+    width: 8%;
 }
 
 #partner {
@@ -159,12 +161,13 @@ body {
     color: white;
     align-items: center;
     gap: 10px;
-    padding: 5%;
+    padding: 7%;
     background: #272a31;
   }
 
 #partner > hr {
     width: 8%;
+    border: 1px solid #ec5242;
 }
 
   .partner-logo {
@@ -189,5 +192,5 @@ body {
     align-items: center;
     gap: 40px;
     padding: 8%;
-    background-color: #d3ded3;
+    background-color: #fff;
   }
