@@ -267,7 +267,7 @@ body {
     }
 
     #active {
-        color: #ec5242;
+        color: hsl(6, 82%, 59%);
     }
 
     #nav-btn {
@@ -276,6 +276,14 @@ body {
         color: #ec5242;
         font-weight: bolder;
         border: 2px solid #ec5242;
+    }
+
+    #nav-btn:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #ec5242;
+        padding: 10px;
+        border: none;
     }
 
     #introduction {
