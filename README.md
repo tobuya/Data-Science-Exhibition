@@ -32,7 +32,7 @@
 
 > This project is about AI & Big Data Exhibition that will take place at Riverside Drive on 19th and 20th January 2023. Please visit the website to see details of the project.
 
-**[your_project__name]** is a...
+[Loom Video Presentation](https://loom.com/share/622d645485cf4c4fb8ce72c97813eedb)
 
 ## 🛠 Built With <a name="built-with"></a>
 
