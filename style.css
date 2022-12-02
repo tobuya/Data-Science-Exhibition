@@ -23,6 +23,56 @@ body {
     padding-top: 5%;
 }
 
+#hamburger {
+    display: none;
+}
+
+#show-menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+    padding-top: 8%;
+    background: #3c3a39;
+    z-index: 1;
+}
+
+#close {
+    align-self: flex-end;
+    padding-right: 8%;
+}
+
+#close-icon {
+    color: #fff;
+}
+
+#hamburger-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 10%;
+}
+
+#hamburger-ul > li {
+    list-style-type: none;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#menu-container {
+    z-index: 0;
+}
+
 #navigation,
 #top-bar {
     display: none;
@@ -209,7 +259,8 @@ body {
         max-width: 100%;
     }
 
-    #mobile-menu {
+    #mobile-menu,
+    #show-menu {
         display: none;
     }
 
