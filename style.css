@@ -152,8 +152,8 @@ body {
   justify-items: start;
   padding: 3% 5%;
   gap: 5px;
-  background-color: #3c3a39;
-  opacity: 0.8;
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .program:hover {
@@ -168,11 +168,15 @@ body {
 .program > h4 {
   padding-left: 0;
   justify-self: start;
+  font-weight: lighter;
+  font-size: medium;
   color: #ec5242;
 }
 
 .program > p {
   justify-self: start;
+  font-weight: lighter;
+  font-size: medium;
 }
 
 .program-btn {
