@@ -153,15 +153,26 @@ body {
   padding: 3% 5%;
   gap: 5px;
   background-color: #272a31;
+  opacity: 0.8;
+}
+
+.program:hover {
+  cursor: pointer;
+  border: 2px solid #d3ded3;
 }
 
 .program > img {
-  width: 40%;
+  width: 20%;
 }
 
 .program > h4 {
   padding-left: 0;
   color: #ec5242;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.program > p {
   font-weight: bolder;
 }
 
@@ -379,6 +390,8 @@ body {
   .program {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 10px;
   }
 
