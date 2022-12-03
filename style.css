@@ -101,8 +101,8 @@ body {
 .introduction-para {
   border: 2px solid #fff;
   background-color: #d3ded3;
-  padding: 3%;
-  margin: 5% 5% 5% 0;
+  padding: 1.5%;
+  margin: 5% 42% 5% 0;
 }
 
 .introduction-div {
@@ -358,6 +358,11 @@ body {
 
   #introduction {
     padding: 7% 20% 7% 7%;
+  }
+
+  .introduction-h1 {
+    margin-right: 15%;
+    font-size: 50px;
   }
 
   #program-section {
