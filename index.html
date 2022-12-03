@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Exhibition</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <link href="https://fonts.cdnfonts.com/css/cocogoose-letterpress" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="mobile-menu">
+            <a href="#">
+                <i class="material-icons md-36 menu">menu</i>
+            </a>
+        </div>
+        <div id="top-bar">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">English</a>
+            <a href="#">My Page</a>
+            <a href="#">Logout</a>
+        </div>
+        <nav id="navigation">
+            <a id="page-logo" href="./index.html">
+                <img src="images/iCON.png" alt="Logo">
+            </a>
+            <ul id="desktop-nav">
+                <li>
+                    <a id="active" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Program</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-list">About</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">Sponsor</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list">News</a>
+                </li>
+                <button type="button" id="nav-btn">Join Now</button>
+            </ul>
+        </nav>
+    </header>
+    <div id="hamburger">
+        <a href="#" id="close">
+            <i id="close-icon" class="material-icons">close</i>
+        </a>
+        <ul id="hamburger-ul">
+            <li>
+                <a class="link" href="./index.html"> Home</a>
+            </li>
+            <li>
+                <a class="link" href="#"> Program</a>
+            </li>
+            <li>
+                <a class="link" href="./about.html"> About</a>
+            </li>
+            <li>
+                <a class="link" href="#"> Sponsor</a>
+            </li>
+            <li>
+                <a class="link" href="#"> News</a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <section id="introduction">
+            <h3 class="introduction-greet">"Hello! Data Scientists"</h3>
+            <h1 class="introduction-h1">AI & BIG DATA FOR A SMARTER FUTURE EXHIBITION 2023</h1>
+            <P class="introduction-para">
+                Data literacy is so critical to our education system but also
+                key to humanity. This Exhibition will showcase the next generation
+                enterprise technologies and strategies from the world of Data Science
+                and AI, providing an opportunity to explore and discover the practical
+                and successful implementation of data science and machine learning to 
+                drive your business forward.
+            </P>
+            <div class="introduction-div">
+                <h2 class="intro-div-h2">2023.01.19(THUR) ~ 20(FRI)</h2>
+                <p class="intro-div-para">@ Riverside Drive, Nairobi, Kenya.</p>
+            </div>
+        </section>
+        <section id="program-section">
+            <h2>Main Program</h2>
+            <hr>
+            <div id="programs">
+                <div class="program">
+                    <img src="images/lecture.png" alt="Lecture">
+                    <h4>Lecture</h4>
+                    <p>Listen to the speakers from various countries about securing value through AI & Big Data.</p>
+                </div>
+                <div class="program">
+                    <img src="images/exhibition.png" alt="Exhibition">
+                    <h4>Exhibition</h4>
+                    <p>Appreciate various creations applying successful implementation of data science and AI.</p>
+                </div>
+                <div class="program">
+                    <img id="" src="images/forum.png" alt="Forum">
+                    <h4>Forum</h4>
+                    <p>Have time to share your thoughts and opinions with experts from each topic.</p>
+                </div>
+                <div class="program">
+                    <img src="images/workshop.png" alt="Workshop">
+                    <h4>Workshop</h4>
+                    <p>Try creating your own work using open source data science software rather than just watching it.</p>
+                </div>
+                <div class="program">
+                    <img src="images/ignite.png" alt="Ignite">
+                    <h4>Ignite</h4>
+                    <p>Get opportunities to network with numerous clients, prospects, and partners from around the world.</p>
+                </div>
+            </div>
+            <button type="button" class="program-btn">Join AI & Big Data Expo 2023</button>
+            <p class="whole-program">
+                <a href="#">SEE THE WHOLE PROGRAM</a>
+            </p>
+        </section>
+        <div id="speakers">
+            <h2>Featured Speakers</h2>
+            <hr>
+            <section id="featured-speakers"></section>
+        </div>
+    </main>
+    <footer>
+        <section id="partner">
+            <h2>Partner</h2>
+            <hr>
+            <div class="partner-logo">
+                <img src="images/mozilla.png" alt="Mozilla">
+                <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt="Google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Naver_Logotype.svg/1200px-Naver_Logotype.svg.png"
+                    alt="Naver">
+                <img class="facebook" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-15.png"
+                    alt="Facebook">
+                <img src="images/airbnb.png" alt="AirBnB">
+            </div>
+        </section>
+        <section id="logo-section">
+            <img src="images/iCON.png" alt="Logo">
+            <p>© 2023 AI & BIG DATA FOR A SMARTER FUTURE</p>
+        </section>
+    </footer>
+</body>
+</html>
