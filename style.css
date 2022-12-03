@@ -309,7 +309,8 @@ body {
 
   .whole-program > a {
     color: #fff;
-    font-weight: bolder;
+    font-weight: lighter;
+    font-size: medium;
   }
 
   #top-bar a {
