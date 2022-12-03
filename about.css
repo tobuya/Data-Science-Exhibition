@@ -83,7 +83,7 @@ body {
   flex-direction: column;
   gap: 10px;
   text-align: center;
-  padding: 8% 7%;
+  padding: 7%;
 }
 
 .single-event > h3,
@@ -93,21 +93,17 @@ body {
   font-size: larger;
 }
 
-#about-intro > h3 {
-  color: #ec5242;
-  font-size: larger;
-}
-
 #about-intro > h1 {
   font-weight: bolder;
   color: #ec5242;
   font-size: xx-large;
+  margin: 0 10%;
 }
 
 #about-intro > p {
   border: 2px solid #fff;
-  padding: 3%;
-  margin-top: 7%;
+  padding: 1.5% 3%;
+  margin: 2% 8%;
   background-color: #d3ded3;
 }
 
@@ -115,10 +111,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  padding: 2% 8%;
+  padding: 2% 10%;
 }
 
-#contact > a {
+#contact-email {
   color: #000;
   font-weight: bolder;
 }
@@ -308,6 +304,11 @@ body {
 
   #desktop-nav a {
     text-decoration: none;
+  }
+
+  #about-intro > h1 {
+    margin: 0 15%;
+    font-size: 50px;
   }
 
   #page-logo {
