@@ -146,7 +146,7 @@ body {
 
 .logo {
   place-self: center;
-  width: 30%;
+  width: 80%;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -199,7 +199,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
-  opacity: 0.65;
+  box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
 }
 
 #past-event-warsaw {
@@ -207,7 +207,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 50%;
-  opacity: 0.65;
+  box-shadow: inset -100vw -100vh rgba(252, 3, 3, 0.594);
 }
 
 #partner {
@@ -342,6 +342,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 20px;
+  }
+
+  .single-event {
+    width: 80%;
+    height: 230px;
+  }
+
+  #past-event-buenos {
+    place-self: end;
   }
 
   #partner {
