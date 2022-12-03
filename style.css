@@ -117,7 +117,7 @@ body {
   grid-template-rows: 0.1fr 0.05fr 0.75fr 0.1fr;
   gap: 10px;
   padding: 5% 7% 0 7%;
-  background-image: url('images/dark.jpg');
+  background-image: url('images/back.jpeg');
   background-size: contain;
   color: #fff;
 }
@@ -152,7 +152,7 @@ body {
   justify-items: start;
   padding: 3% 5%;
   gap: 5px;
-  background-color: #272a31;
+  background-color: #3c3a39;
   opacity: 0.8;
 }
 
