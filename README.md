@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>Capstone: Data Science Exhibition</b></h1>
+  <h1><b>CAPSTONE PROJECT</b></h1>
 
 </div>
 
