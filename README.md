@@ -120,8 +120,8 @@ To run tests, run the following command:
 👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/tobuya)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/MullerTheGreat1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tobuya)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,5 +156,12 @@ Give a ⭐️ if you like this project!
 [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the amazing Design Template.
 
 [icons8](https://icons8.com/) Special thanks to icons8 for the icon used in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/Lucash2022/tv-hub-app/blob/develop/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
