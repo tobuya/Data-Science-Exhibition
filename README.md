@@ -14,6 +14,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [## 📸 Screenshots](#screenshot)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
@@ -34,6 +35,7 @@
 
 > This project is about AI & Big Data Exhibition that will take place at Riverside Drive on 19th and 20th January 2023. Please visit the website to see details of the project.
 
+## 📸 Screenshots <a name="screenshot"></a>
 ![Screenshot](./images/mockup.png)
 ![Screenshot](./images/about.png)
 
