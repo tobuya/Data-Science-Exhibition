@@ -35,6 +35,7 @@
 > This project is about AI & Big Data Exhibition that will take place at Riverside Drive on 19th and 20th January 2023. Please visit the website to see details of the project.
 
 ![Screenshot](./images/mockup.png)
+![Screenshot](./images/about.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
