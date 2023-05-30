@@ -14,7 +14,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [## 📸 Screenshots](#screenshot)
+  - [📸 Screenshots](#screenshot)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
