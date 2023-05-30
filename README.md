@@ -1,8 +1,13 @@
 <a name="readme-top"></a>
+[![Contributors](https://img.shields.io/github/contributors/tobuya/Data-Science-Exhibition)](https://github.com/tobuya/Data-Science-Exhibition/graphs/contributors)
+[![LastUpdate](https://img.shields.io/github/last-commit/tobuya/Data-Science-Exhibition)](https://github.com/tobuya/Data-Science-Exhibition/commits/dev)
+[![Stargazers](https://img.shields.io/github/stars/tobuya/Data-Science-Exhibition)](https://github.com/tobuya/Data-Science-Exhibition/stargazers)
+[![Issues](https://img.shields.io/github/issues/tobuya/Data-Science-Exhibition)](https://github.com/tobuya/Data-Science-Exhibition/issues)
+[![License](https://img.shields.io/github/license/tobuya/Data-Science-Exhibition)](https://github.com/tobuya/Data-Science-Exhibition/blob/main/LICENSE)
 
 <div align="center">
 
-  <h1><b>CAPSTONE PROJECT</b></h1>
+  <h1><b>DATA SCIENCE EXHIBITION</b></h1>
 
 </div>
 
@@ -29,7 +34,8 @@
 
 > This project is about AI & Big Data Exhibition that will take place at Riverside Drive on 19th and 20th January 2023. Please visit the website to see details of the project.
 
-[Loom Video Presentation](https://loom.com/share/622d645485cf4c4fb8ce72c97813eedb)
+![Screenshot](./images/mockup.png)
+![Screenshot](./images/about.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,7 +88,7 @@ Set up Webhint, Stylelint, and ESLint in your local environment:
 
 
 ```sh
-  cd my-desired-folder
+  cd my-desired-folder/Data-Science-Exhibition
 
   npm install --save-dev hint@7.x
 
@@ -119,9 +125,9 @@ To run tests, run the following command:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/tobuya)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/tobuya)
+- [Twitter](https://twitter.com/MullerTheGreat1)
+- [LinkedIn](https://linkedin.com/in/tobuya)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,8 +159,15 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the amazing Design Template.
+- [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the amazing Design Template.
 
-[icons8](https://icons8.com/) Special thanks to icons8 for the icon used in this project.
+- Special thanks to [icons8](https://icons8.com/) for the icon used in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
